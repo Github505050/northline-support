@@ -1,4 +1,4 @@
-# Upwork Portfolio Listing — ready after public deployment
+# Upwork Portfolio Listing — published demo
 
 **Project title**: Customer Support Chatbot & Responsive Ecommerce Demo
 
@@ -13,9 +13,9 @@ The project also contains an optional Cloudflare Worker integration for Google G
 
 **Portfolio image:** `northline-upwork-thumbnail.png`
 
-**Live demo URL (only use once verified):** `https://github505050.github.io/northline-support/`
+**Live demo URL (GitHub Pages deployment succeeded; manually open and verify):** `https://github505050.github.io/northline-support/`
 
-**Case study URL (only use once verified):** `https://github505050.github.io/northline-support/case-study.html`
+**Case study URL:** `https://github505050.github.io/northline-support/case-study.html`
 
 **Client-relevant capabilities demonstrated:** Responsive layout; floating chat UI; FAQ/knowledge management; fictional sample order flow; error handling; modular JavaScript; preparation for secure AI integration.
 
