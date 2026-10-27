@@ -51,7 +51,7 @@ tests/
 2. Push or upload this project's files, keeping the directory structure. Don't upload an archive file in place of extracted source.
 3. Open repository **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, `main`, folder `/docs`, then Save.
 4. After GitHub completes its publishing workflow, visit `https://github505050.github.io/northline-support/` and the `/case-study.html` page.
-5. Verify the links, images, chat and tablet/mobile layout on the actual public site before advertising it. Public deployment has **not** been done from the development environment.
+5. GitHub Pages publishing completed successfully on October 27, 2026. Still verify the links, images, chat and tablet/mobile layout on the public URL in a separate browser; the testing environment could not independently fetch the published site.
 
 Reference: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
@@ -97,8 +97,8 @@ This demo does **not** have a secure customer authentication system or a real or
 - **Isolated Chromium UI tests passed** at desktop 1440px, tablet 768px and mobile 390px widths for product cards, FAQs, menu, chat opening, fictional order response, unknown-question fallback, chat reset, cart interaction, case study, JavaScript console errors and horizontal overflow.
 - A tablet overflow bug was discovered and fixed before retesting.
 - Static code inspection: no embedded API credentials or external paid-image dependencies. Test-only generated images are the project's original vector assets.
-- **Not done:** production Cloudflare login, live Gemini request with a real key, deployment of the new GitHub repository, GitHub Pages live URL verification or live browser network tests. Those steps require owner-side repository creation/accounts/credentials.
+- **Publishing completed:** The GitHub repository and GitHub Pages deployment workflow are live (workflow success recorded October 27, 2026). **Not done:** production Cloudflare AI setup, a live Gemini request with credentials, direct HTTP verification from this test environment or public-URL browser interaction tests.
 
 ## Portfolio / licensing notes
 
-This code and all decorative product SVG artwork are original sample assets created for the demo. The brand, products, quotes, prices, policies and orders are fictional. There are no testimonials, purchase functionality, real customer data or claims of a commissioned client. Upwork portfolio materials should link to the real published demo only **after** deployment verification and describe guided FAQ functionality honestly when AI is not connected.
+This code and all decorative product SVG artwork are original sample assets created for the demo. The brand, products, quotes, prices, policies and orders are fictional. There are no testimonials, purchase functionality, real customer data or claims of a commissioned client. Upwork portfolio materials may link to the published demo after opening the site and checking the public interactions; describe guided FAQ functionality honestly while AI is not connected.
